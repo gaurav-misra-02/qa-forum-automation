@@ -29,7 +29,7 @@ class VectorDatabase:
     def __init__(self, contexts: str, save_file: Path, code_filepath: Path):
         self.contexts = contexts
         self.save_file = save_file
-        self.code_info = pd.read_excel(code_filepath, sheet_name='Module1_Code_QnA')
+        self.code_info = pd.read_csv(code_filepath)
         self.model = SentenceTransformer(Config.EMBEDDING_MODEL)
         self.database: List[Dict[str, Any]] = []
     

@@ -1,0 +1,337 @@
+,Question,Answer,,,,,
+1,What is a non linear equation,"A Nonlinear equation can be defined as the equation having the maximum degree 2 or more than 2. 
+A linear equation forms a straight line on the graph. A nonlinear equation forms a curve on the graph. 
+The general form of linear equation is, $y = mx +c$ , where $x$ and $y$ are the variables, m is the slope of the line and c is a constant value.The general form of nonlinear equations is, $ax^2 + by^2 = c$, where $x$ and $y$ are the variables and $a$, $b$ and $c$ are the constant values.
+
+Example of a linear equation: $3x + 2 = 54, x + 5 = 1$
+Example of a non linear equation: $2x^2+ 3y^2 = 7, a^2 + 2ab + b^2 = 0$","**Q1:** What is a non linear equation
+**A1:** A Nonlinear equation can be defined as the equation having the maximum degree 2 or more than 2. 
+A linear equation forms a straight line on the graph. A nonlinear equation forms a curve on the graph. 
+The general form of linear equation is, $y = mx +c$ , where $x$ and $y$ are the variables, m is the slope of the line and c is a constant value.The general form of nonlinear equations is, $ax^2 + by^2 = c$, where $x$ and $y$ are the variables and $a$, $b$ and $c$ are the constant values.
+
+Example of a linear equation: $3x + 2 = 54, x + 5 = 1$
+Example of a non linear equation: $2x^2+ 3y^2 = 7, a^2 + 2ab + b^2 = 0$
+
+---","Example of a linear equation: $x + 2y = 54, 2x + 5y = 1$
+Example of a non linear equation: $3x^2 = 7, 5b^2 = 25$","Example of a linear equation: $y = 8x - 9$
+Example of a non linear equation: $y = x^2 - 7$","Example of a linear equation: $x - 2y = 2$
+Example of a non linear equation: $6x^2 + 11x - 35 = 0$","Example of a linear equation: $2x − 3y + 4 = 0, y = 5x + 2$
+Example of a non linear equation: $y=x^2+5x+4$"
+2,What is a non linear system,A non-linear system is a system in which the change of the output is not linearly proportional to the change of the input.,"**Q2:** What is a non linear system
+**A2:** A non-linear system is a system in which the change of the output is not linearly proportional to the change of the input.
+
+---",,,,
+3,What is a differential equation,"A differential equation is an equation that describes the relationship between one or more unknown functions/variables and their derivatives. The functions usually represent physical quantities, and the derivatives represent their rates of change. 
+
+For example: $\frac{dy}{dx} = f(x)$
+
+Here $“x”$ is an independent variable and $“y”$ is a dependent variable
+
+For example: $\frac{dy}{dx} = 5x$","**Q3:** What is a differential equation
+**A3:** A differential equation is an equation that describes the relationship between one or more unknown functions/variables and their derivatives. The functions usually represent physical quantities, and the derivatives represent their rates of change. 
+
+For example: $\frac{dy}{dx} = f(x)$
+
+Here $“x”$ is an independent variable and $“y”$ is a dependent variable
+
+For example: $\frac{dy}{dx} = 5x$
+
+---",For example: $\frac{dy}{dx} = 3x^4$,For example: $\frac{dy}{dx} = x^2+1$,For example: $\frac{dy}{dx} = x^5$,For example: $\frac{dy}{dx} = 6x^9$
+4,What is a first order differential equation,"The order of the differential equation is the order of the highest order derivative present in the equation. Here some examples for different orders of the differential equation are given. Following are some examples:
+
+* $\frac{dy}{dx} = 3x + 2$, The order of the equation is 1
+* $\frac{d^2y}{dx^2} + 2 \frac{dy}{dx} + y = 0$, The order is 2
+* $\frac{dy}{dx}+y = kt$, The order is 1","**Q4:** What is a first order differential equation
+**A4:** The order of the differential equation is the order of the highest order derivative present in the equation. Here some examples for different orders of the differential equation are given. Following are some examples:
+
+* $\frac{dy}{dx} = 3x + 2$, The order of the equation is 1
+* $\frac{d^2y}{dx^2} + 2 \frac{dy}{dx} + y = 0$, The order is 2
+* $\frac{dy}{dx}+y = kt$, The order is 1
+
+---",For example: $\frac{dy}{dx} = 3x^4$,For example: $\frac{dy}{dx} = x^2+1$,For example: $\frac{dy}{dx} = x^5$,For example: $\frac{dy}{dx} = 6x^9$
+5,What is a derivative,"**Derivatives** are defined as the varying rate of change of a function with respect to an independent variable. The derivative is used to measure the sensitivity of one variable (dependent variable) with respect to another variable (independent variable).
+
+For example: $\frac{dy}{dx} = 5x$
+Here $“x”$ is an independent variable and $“y”$ is a dependent variable.","**Q5:** What is a derivative
+**A5:** **Derivatives** are defined as the varying rate of change of a function with respect to an independent variable. The derivative is used to measure the sensitivity of one variable (dependent variable) with respect to another variable (independent variable).
+
+For example: $\frac{dy}{dx} = 5x$
+Here $“x”$ is an independent variable and $“y”$ is a dependent variable.
+
+---",,,,
+6,What is a State of a system,A state of system is something that can describe nature of a system at a given point. ,"**Q6:** What is a State of a system
+**A6:** A state of system is something that can describe nature of a system at a given point. 
+
+---",,,,
+7,What is a State Variable of a system,When a system is represented in mathematical equation then the variables describing the nature of system are called the State Variable of the system.,"**Q7:** What is a State Variable of a system
+**A7:** When a system is represented in mathematical equation then the variables describing the nature of system are called the State Variable of the system.
+
+---",,,,
+8,What is a State Equation of a system,"When a system is represented in mathematical equation then that equation is called State Equation of the system.
+
+$$
+\dot x_1= f_1 (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+$$
+\dot x_2= f_2 (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+$$
+..
+$$
+
+$$
+..
+$$
+
+$$
+\dot x_n= f_n (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+Here $\dot x_1, \dot x_2,..\dot x_n$  denote the derivative of $x_1, x_2,.. x_n$ respectively with respect to time variable $t$ and $u_1, u_2,.. u_p$ etc are specified input variables. We call the variables $x_1, x_2,.. x_n$ the **state variables**.","**Q8:** What is a State Equation of a system
+**A8:** When a system is represented in mathematical equation then that equation is called State Equation of the system.
+
+$$
+\dot x_1= f_1 (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+$$
+\dot x_2= f_2 (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+$$
+..
+$$
+
+$$
+..
+$$
+
+$$
+\dot x_n= f_n (t,x_1,……,x_n,u_1,……,u_p )
+$$
+
+Here $\dot x_1, \dot x_2,..\dot x_n$  denote the derivative of $x_1, x_2,.. x_n$ respectively with respect to time variable $t$ and $u_1, u_2,.. u_p$ etc are specified input variables. We call the variables $x_1, x_2,.. x_n$ the **state variables**.
+
+---",,,,
+9,What does a State Equation of a system consist of,"**State Variables** are used to to represent the memory the dynamical system has of its past or the desired variable of interest. We usually use vector notation to write these equations in a compact form.
+
+$$
+x=  \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n\end{bmatrix} , u=  \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_p\end{bmatrix} , f(t,x,u)=  \begin{bmatrix} f_1(t,x,u) \\ f_2(t,x,u) \\ \vdots \\ f_n(t,x,u)\end{bmatrix} 
+$$
+
+We can rewrite the n first-order differential equations as one n-dimensional first-order vector differential equation
+
+$$
+\dot x = f(t,x,u)
+$$
+
+We call above equation as the **State Equation** of the system and refer to $x$ as the **state** and $u$ as the **input**.","**Q9:** What does a State Equation of a system consist of
+**A9:** **State Variables** are used to to represent the memory the dynamical system has of its past or the desired variable of interest. We usually use vector notation to write these equations in a compact form.
+
+$$
+x=  \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n\end{bmatrix} , u=  \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_p\end{bmatrix} , f(t,x,u)=  \begin{bmatrix} f_1(t,x,u) \\ f_2(t,x,u) \\ \vdots \\ f_n(t,x,u)\end{bmatrix} 
+$$
+
+We can rewrite the n first-order differential equations as one n-dimensional first-order vector differential equation
+
+$$
+\dot x = f(t,x,u)
+$$
+
+We call above equation as the **State Equation** of the system and refer to $x$ as the **state** and $u$ as the **input**.
+
+---",,,,
+10,When does an equilibrium occur in a system,When the rate of change of states of a system reaches zero then the system is said to be at an equilibrium,"**Q10:** When does an equilibrium occur in a system
+**A10:** When the rate of change of states of a system reaches zero then the system is said to be at an equilibrium
+
+---",,,,
+11,What is an equilibrium point in a system,"An equilibrium point is the values that the state variables attain when the system reaches equilibrium i.e. when the rate of change of states of the system reaches zero. You can find the equilibrium points by simply solving the state equation putting rate of change of states as zero. 
+
+To find the equilibrium point you can follow the steps given below:
+Consider the following set of coupled equations as follow:
+$$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$
+Here $x_1$ and $x_2$ are the states of the system and $\dot x_1$ and $\dot x_2$ are the rate of change of the states.
+
+Calculate the equilibrium points of the system by setting the values of $\dot x_1 = \dot x_2 = 0$.
+$$
+0 = -x_1 + 2x_1^3 + x_2 \\
+0 = -x_1 - x_2
+$$
+By solving the above two equations, the values of equilibrium point are : $(0,0) , (-1,1) \& (1,-1)$","**Q11:** What is an equilibrium point in a system
+**A11:** An equilibrium point is the values that the state variables attain when the system reaches equilibrium i.e. when the rate of change of states of the system reaches zero. You can find the equilibrium points by simply solving the state equation putting rate of change of states as zero. 
+
+To find the equilibrium point you can follow the steps given below:
+Consider the following set of coupled equations as follow:
+$$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$
+Here $x_1$ and $x_2$ are the states of the system and $\dot x_1$ and $\dot x_2$ are the rate of change of the states.
+
+Calculate the equilibrium points of the system by setting the values of $\dot x_1 = \dot x_2 = 0$.
+$$
+0 = -x_1 + 2x_1^3 + x_2 \\
+0 = -x_1 - x_2
+$$
+By solving the above two equations, the values of equilibrium point are : $(0,0) , (-1,1) \& (1,-1)$
+
+---",,,,
+12,What are the types of equilibrium points,"Generally equilibrium points can be classified in two categories: 
+* Stable Equilibrium
+* Unstable Equilibrium","**Q12:** What are the types of equilibrium points
+**A12:** Generally equilibrium points can be classified in two categories: 
+* Stable Equilibrium
+* Unstable Equilibrium
+
+---",,,,
+13,What is a stable equilibrium,**Stable Equilibrium** - If a system always returns to the equilibrium point after small perturbations.,"**Q13:** What is a stable equilibrium
+**A13:** **Stable Equilibrium** - If a system always returns to the equilibrium point after small perturbations.
+
+---",,,,
+14,What is an unstable equilibrium,**Unstable Equilibrium** - If a system moves away from equilibrium point after small perturbations.,"**Q14:** What is an unstable equilibrium
+**A14:** **Unstable Equilibrium** - If a system moves away from equilibrium point after small perturbations.
+
+---",,,,
+15,How do I find if an equilibrium point is stable or unstable," For each Equilibrium point
+*If all the eigenvalues have negative real part, the system is **Stable** at the given Equilibrium point.
+*If even one of the eigenvalues has positive real part, the system is **Unstable** at the given Equilibrium point.
+","**Q15:** How do I find if an equilibrium point is stable or unstable
+**A15:**  For each Equilibrium point
+*If all the eigenvalues have negative real part, the system is **Stable** at the given Equilibrium point.
+*If even one of the eigenvalues has positive real part, the system is **Unstable** at the given Equilibrium point.
+
+
+---",,,,
+16,What is Eigenvalues of a system,Eigenvalues of state matrices represent poles of a system. The poles decides the stability of a system and if the poles are on the negative half of the complex plane i.e. they have the negative real part then the system is stable and if the real part is  positive the system is unstable. A system is marginally stable if it has simple  poles (non repeated) on imaginary axis and unstable if it is repeated. ,"**Q16:** What is Eigenvalues of a system
+**A16:** Eigenvalues of state matrices represent poles of a system. The poles decides the stability of a system and if the poles are on the negative half of the complex plane i.e. they have the negative real part then the system is stable and if the real part is  positive the system is unstable. A system is marginally stable if it has simple  poles (non repeated) on imaginary axis and unstable if it is repeated. 
+
+---",,,,
+17,How do I find Eigenvalues of a system,"$$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$
+Assume the above equation as State Equation of a system then following are the steps to find Eigenvalues of a system:
+* Calculate the equilibrium points of the system by setting the values of rate of change of states in state equations as zero. 
+For example: $\dot x_1 = \dot x_2 = 0$
+By solving the above two equations, the values of equilibrium point are : $(0,0) , (-1,1) \& (1,-1)$
+
+* Linearize the set of equations by calculating the Jacobian:
+ The Jacobian $J$ for the set of equations can be calculated as:
+$$
+J = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\ \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2}\end{bmatrix} = \begin{bmatrix} 6x_1^2-1 & 1 \\ -1 & -1\end{bmatrix}
+$$
+
+* Substitute the value of the equilibrium points in the matrix $J$ to find $3$ matrices $J_1$, $J_2$ and $J_3$.
+
+*  The eigenvalues can be calculated by constructing the characteristic equation of      the matrix and equating it to zero. A characteristic equation can be written as $|sI-J|=0$
+For equilibrium point $(0,0)$ :-
+$$ 
+|sI-J_1|=0  \\
+\begin{vmatrix} s\begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix} - \begin{bmatrix} -1 & 1 \\ -1 & -1\end{bmatrix} \end{vmatrix}= 0 \\
+\begin{vmatrix} (s+1) & -1 \\ 1 & (s+1) \end{vmatrix}= 0 \\
+(s+1)^2 + 1 = 0 \\
+s=(-1+i),(-1-i)
+$$
+For equilibrium point $(-1,1)$ and $(1,-1)$:
+
+$$
+|sI-J_2|=0  \\
+\begin{vmatrix} s\begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix} - \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} \end{vmatrix}= 0 \\
+\begin{vmatrix} (s-5) & -1 \\ 1 & (s+1) \end{vmatrix}= 0 \\
+(s-5)(s+1) + 1 = 0 \\
+s=(2+2\sqrt{2}),(2-2\sqrt{2}),(-1-i)
+$$
+","**Q17:** How do I find Eigenvalues of a system
+**A17:** $$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$
+Assume the above equation as State Equation of a system then following are the steps to find Eigenvalues of a system:
+* Calculate the equilibrium points of the system by setting the values of rate of change of states in state equations as zero. 
+For example: $\dot x_1 = \dot x_2 = 0$
+By solving the above two equations, the values of equilibrium point are : $(0,0) , (-1,1) \& (1,-1)$
+
+* Linearize the set of equations by calculating the Jacobian:
+ The Jacobian $J$ for the set of equations can be calculated as:
+$$
+J = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\ \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2}\end{bmatrix} = \begin{bmatrix} 6x_1^2-1 & 1 \\ -1 & -1\end{bmatrix}
+$$
+
+* Substitute the value of the equilibrium points in the matrix $J$ to find $3$ matrices $J_1$, $J_2$ and $J_3$.
+
+*  The eigenvalues can be calculated by constructing the characteristic equation of      the matrix and equating it to zero. A characteristic equation can be written as $|sI-J|=0$
+For equilibrium point $(0,0)$ :-
+$$ 
+|sI-J_1|=0  \\
+\begin{vmatrix} s\begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix} - \begin{bmatrix} -1 & 1 \\ -1 & -1\end{bmatrix} \end{vmatrix}= 0 \\
+\begin{vmatrix} (s+1) & -1 \\ 1 & (s+1) \end{vmatrix}= 0 \\
+(s+1)^2 + 1 = 0 \\
+s=(-1+i),(-1-i)
+$$
+For equilibrium point $(-1,1)$ and $(1,-1)$:
+
+$$
+|sI-J_2|=0  \\
+\begin{vmatrix} s\begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix} - \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} \end{vmatrix}= 0 \\
+\begin{vmatrix} (s-5) & -1 \\ 1 & (s+1) \end{vmatrix}= 0 \\
+(s-5)(s+1) + 1 = 0 \\
+s=(2+2\sqrt{2}),(2-2\sqrt{2}),(-1-i)
+$$
+
+
+---",,,,
+18,What is Jacobian,Jacobian matrix is a matrix of partial derivatives. Jacobian is the determinant of the jacobian matrix. ,"**Q18:** What is Jacobian
+**A18:** Jacobian matrix is a matrix of partial derivatives. Jacobian is the determinant of the jacobian matrix. 
+
+---",,,,
+19,How to find a Jacobian of a system,"Consider the following set of coupled equations as given below:
+$$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$  
+The equilibrium point of these equations are : $(0,0) , (-1,1) \& (1,-1)$
+
+ Then the Jacobian $J$ for the set of equations can be calculated as:
+$$
+J = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\ \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2}\end{bmatrix} = \begin{bmatrix} 6x_1^2-1 & 1 \\ -1 & -1\end{bmatrix}
+$$
+
+Now, substitute the value of the equilibrium points in the matrix $J$ to find $3$ matrices $J_1$, $J_2$ and $J_3$.
+$$
+J_1 =  \begin{bmatrix} 6(0)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} -1 & 1 \\ -1 & -1\end{bmatrix} \\
+J_2 =  \begin{bmatrix} 6(1)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} \\
+J_3 =  \begin{bmatrix} 6(-1)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} 
+$$","**Q19:** How to find a Jacobian of a system
+**A19:** Consider the following set of coupled equations as given below:
+$$
+\dot x_1 = -x_1 + 2x_1^3 + x_2 = f_1(x_1,x_2)\\
+\dot x_2 = -x_1 - x_2 = f_2(x_1,x_2)
+$$  
+The equilibrium point of these equations are : $(0,0) , (-1,1) \& (1,-1)$
+
+ Then the Jacobian $J$ for the set of equations can be calculated as:
+$$
+J = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2}\\ \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2}\end{bmatrix} = \begin{bmatrix} 6x_1^2-1 & 1 \\ -1 & -1\end{bmatrix}
+$$
+
+Now, substitute the value of the equilibrium points in the matrix $J$ to find $3$ matrices $J_1$, $J_2$ and $J_3$.
+$$
+J_1 =  \begin{bmatrix} 6(0)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} -1 & 1 \\ -1 & -1\end{bmatrix} \\
+J_2 =  \begin{bmatrix} 6(1)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} \\
+J_3 =  \begin{bmatrix} 6(-1)^2-1 & 1 \\ -1 & -1\end{bmatrix} =  \begin{bmatrix} 5 & 1 \\ -1 & -1\end{bmatrix} 
+$$
+
+---",,,,
+20,What is a linear system?,,,,,,
+21,How to check whether a system is linear or non-linear?,,,,,,
+22,What is the need of linearization?,,,,,,
+23,What is linearization?,,,,,,
+24,How to perform linearization?,,,,,,
+25,What are eigen vectors?,,,,,,
+26,How to find eigen vectors?,,,,,,
+27,Second order differential equations,,,,,,

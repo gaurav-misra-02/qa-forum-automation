@@ -14,7 +14,7 @@ def main():
     parser.add_argument(
         '--contexts-file',
         type=Path,
-        default=Config.DATA_DIR / 'Task_Theory_Part_1_DB.json',
+        default=Config.DATA_DIR / 'task_theory_part_1_db.json',
         help='Path to vector database JSON file'
     )
     

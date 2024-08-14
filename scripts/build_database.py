@@ -10,19 +10,19 @@ def main():
     parser.add_argument(
         '--input',
         type=Path,
-        default=Config.BASE_DIR / 'Task_Theory_Part_1.txt',
+        default=Config.BASE_DIR / 'task_theory_part_1.txt',
         help='Path to input text file'
     )
     parser.add_argument(
         '--code-examples',
         type=Path,
-        default=Config.BASE_DIR / 'Code_QnA.xlsx',
-        help='Path to code examples Excel file'
+        default=Config.BASE_DIR / 'code_qna.csv',
+        help='Path to code examples CSV file'
     )
     parser.add_argument(
         '--output',
         type=Path,
-        default=Config.DATA_DIR / 'Task_Theory_Part_1_DB.json',
+        default=Config.DATA_DIR / 'task_theory_part_1_db.json',
         help='Path to save vector database'
     )
     

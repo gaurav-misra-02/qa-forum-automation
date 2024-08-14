@@ -14,7 +14,7 @@ chat_sessions = {}
 
 
 def load_contexts():
-    db_file = Config.DATA_DIR / "Task_Theory_Part_1_DB.json"
+    db_file = Config.DATA_DIR / "task_theory_part_1_db.json"
     with open(db_file, 'r') as f:
         return json.load(f)
 

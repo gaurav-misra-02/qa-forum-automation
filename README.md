@@ -97,8 +97,8 @@ mkdir -p data
 ```
 
 Move your course materials to the project root:
-- `Task_Theory_Part_1.txt` - Course content
-- `Code_QnA.xlsx` - Code examples
+- `task_theory_part_1.txt` - Course content
+- `code_qna.csv` - Code examples
 
 ## Usage
 
@@ -114,7 +114,7 @@ With custom paths:
 ```bash
 python scripts/build_database.py \
   --input path/to/your/content.txt \
-  --code-examples path/to/code_examples.xlsx \
+  --code-examples path/to/code_examples.csv \
   --output data/vector_db.json
 ```
 

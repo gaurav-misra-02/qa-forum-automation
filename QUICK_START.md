@@ -21,8 +21,8 @@ cp .env.example .env
 ## Step 3: Prepare Data
 
 Ensure these files are in the project root:
-- `Task_Theory_Part_1.txt` (course content)
-- `Code_QnA.xlsx` (code examples)
+- `task_theory_part_1.txt` (course content)
+- `code_qna.csv` (code examples)
 
 ## Step 4: Build Vector Database
 
@@ -30,7 +30,7 @@ Ensure these files are in the project root:
 python scripts/build_database.py
 ```
 
-This creates `data/Task_Theory_Part_1_DB.json`
+This creates `data/task_theory_part_1_db.json`
 
 ## Step 5: Run the Chatbot
 
@@ -55,7 +55,7 @@ python scripts/interactive_chat.py
 
 **Module Not Found**: Run `pip install -r requirements.txt`
 
-**Database Error**: Ensure `data/Task_Theory_Part_1_DB.json` exists (run Step 4)
+**Database Error**: Ensure `data/task_theory_part_1_db.json` exists (run Step 4)
 
 ## Next Steps
 
