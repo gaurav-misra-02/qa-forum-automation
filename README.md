@@ -250,18 +250,6 @@ TOP_K=5  # Retrieve top 5 most relevant chunks
 - API keys are loaded from environment variables only
 - Use `.env.example` as a template for configuration
 
-## License
-
-[Add your license here]
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```
-[Add citation information if applicable]
-```
-
 ## Acknowledgments
 
 Built for educational purposes to assist students learning Control Theory in Robotics.
